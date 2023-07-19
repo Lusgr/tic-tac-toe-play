@@ -1,0 +1,19 @@
+.Board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); 
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 5px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.boardPart {
+  width: 100px;
+  height: 100px;  
+  font-size: 24px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
